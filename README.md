@@ -16,7 +16,7 @@ npm start
 
 `npm run make` builds an installer for the current platform with Electron Forge.
 
-> **Note:** Set your Polotno API key before running. Create one at [polotno.com/cabinet](https://polotno.com/cabinet), then add `VITE_POLOTNO_KEY=your-key` to `.env.local`. In the cabinet, add these to the key's allowed domains:
+> **Note:** Set your Polotno API key before running. Create one at [polotno.com/login](https://polotno.com/login), then add `VITE_POLOTNO_KEY=your-key` to `.env.local`. in the dashboard, add these to the key's allowed domains:
 >
 > - `localhost` – `npm start` serves the renderer from the Vite dev server
 > - `electron` – the packaged app loads the renderer from `file://`, which Polotno reports as `electron`
